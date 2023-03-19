@@ -3,11 +3,29 @@
 /*
 BASE
 */
-h1 {
-    margin: 0;
-
+body {
+    font-family: meiryo;
+    font-size: 14px;
+    color: #333333;
 }
 
+h1 , h2 , ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: outside;
+}
+
+.container {
+    padding-inline: 40px;
+}
+
+.headline {
+    font-size: 1.14285714rem;
+    margin-bottom: 10pxg;
+}
 
 /*
 //BASE
@@ -48,7 +66,31 @@ hero
 .hero__wrapper img {
     width: 100%;
 }
-
 /*
 //hero
+*/
+
+
+/*
+index
+*/
+.index {
+    padding-block: 30px;
+}
+
+.index__contents {
+}
+
+.index__item {
+    margin-left: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.index__item:nth-child(5) {
+    margin-bottom: 30px;
+}
+
+/*
+//index
 */
