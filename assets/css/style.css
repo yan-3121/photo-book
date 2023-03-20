@@ -109,6 +109,7 @@ detail
 */
 .detail {
     background-color: #F4F9FF;
+    padding-top: 60px;
 }
 
 .detail__img {
