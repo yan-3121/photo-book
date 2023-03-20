@@ -9,7 +9,7 @@ body {
     color: #333333;
 }
 
-h1 , h2 , ol {
+h1 , h2 , ol , dl , dt , dd{
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,16 @@ li {
 
 .headline {
     font-size: 1.14285714rem;
-    margin-bottom: 10pxg;
+    margin-bottom: 10px;
+}
+
+.underline::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #DEDEDE;
 }
 
 /*
@@ -93,4 +102,59 @@ index
 
 /*
 //index
+*/
+
+/*
+detail
+*/
+.detail__img {
+    width: 100%;
+}
+
+.detail__img img {
+    width: 100%;
+    height: auto;
+}
+
+.headline--secondaly {
+    margin-bottom: 20px;
+}
+
+.detail__text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail__title {
+    width: 22%;
+    line-height: 1.5;
+}
+
+.detail__description {
+    width: 78%;
+    line-height: 1.5;
+}
+
+.onlinestore {
+    margin-top: 20px;
+    margin-bottom: 115px;
+}
+
+.onlinestore > a {
+    color: #333333;
+}
+/*
+//detail
+*/
+
+/*
+footer
+*/
+.footer {
+    margin-bottom: 15px;
+}
+
+
+/*
+//footer
 */
