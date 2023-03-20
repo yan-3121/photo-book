@@ -7,6 +7,7 @@ body {
     font-family: meiryo;
     font-size: 14px;
     color: #333333;
+    background-color: #F4F9FF;
 }
 
 h1 , h2 , ol , dl , dt , dd{
@@ -20,6 +21,8 @@ li {
 
 .container {
     padding-inline: 40px;
+    max-width: 600px;
+    margin-inline: auto;
 }
 
 .headline {
@@ -49,6 +52,11 @@ header
     background-color: #F4F9FF;
 }
 
+.header__wrapper {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
 .header__logo {
     max-width: 160px;
 }
@@ -69,7 +77,8 @@ hero
 }
 
 .hero__wrapper {
-    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
 }
 
 .hero__wrapper img {
@@ -85,6 +94,14 @@ index
 */
 .index {
     padding-block: 30px;
+    max-width: 1000px;
+    background-color: #fff;
+    margin-inline: auto;
+}
+
+.index__wrapper {
+    max-width: 600px;
+    margin-inline: auto;
 }
 
 .index__contents {
