@@ -107,6 +107,10 @@ index
 /*
 detail
 */
+.detail {
+    background-color: #F4F9FF;
+}
+
 .detail__img {
     width: 100%;
 }
@@ -137,7 +141,7 @@ detail
 
 .onlinestore {
     margin-top: 20px;
-    margin-bottom: 115px;
+    padding-bottom: 115px;
 }
 
 .onlinestore > a {
@@ -151,7 +155,8 @@ detail
 footer
 */
 .footer {
-    margin-bottom: 15px;
+    background-color: #F4F9FF;
+    padding-bottom: 15px;
 }
 
 
