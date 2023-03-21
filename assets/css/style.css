@@ -191,14 +191,18 @@ footer
 PC
 */
 @media screen and (min-width: 1024px){
+    .container {
+        padding-inline: 0;
+    }
+    
     .detail__inner {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    /* .detail__inner { 
-        max-width: 600px;
-    }*/
+    .detail__text {
+        padding-top: 16px;
+    }
 
     .detail__img {
         width: 45%;
