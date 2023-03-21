@@ -129,6 +129,11 @@ detail
     padding-top: 60px;
 }
 
+.detail__inner {
+    display: flex;
+    flex-direction: column;
+}
+
 .detail__img {
     width: 100%;
 }
@@ -186,7 +191,26 @@ footer
 PC
 */
 @media screen and (min-width: 1024px){
-    
+    .detail__inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* .detail__inner { 
+        max-width: 600px;
+    }*/
+
+    .detail__img {
+        width: 45%;
+    }
+
+    .detail__contents {
+        width: 45%;
+    }
+
+    .headline--secondaly {
+        margin-block: 0;
+    }
 }
 
 /*
